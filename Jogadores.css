@@ -1,0 +1,29 @@
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(77, 77, 77);
+}
+
+.container-Jogadores{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.Jogadores{
+display: flex;
+flex-direction: column;
+align-items: center;   
+text-align: center;    
+font-size: 25px;
+}
+
+.Jogadores-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+

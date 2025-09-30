@@ -1,0 +1,25 @@
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(77, 77, 77);
+}
+.btns{
+    position: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+}
+
+h2, p{
+    color: white;
+}
